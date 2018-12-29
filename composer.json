@@ -1,0 +1,46 @@
+{
+    "name": "lapress/lapress",
+    "description": "Laravel mixed with wordpress",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": "^7.1.3",
+        "fideloper/proxy": "^4.0",
+        "jjgrainger/wp-custom-post-type-class": "^1.4",
+        "johnpbloch/wordpress": "^4.9",
+        "predis/predis": "^1.1",
+        "lapress/commands": "dev-develop",
+        "lapress/deployment": "0.1.0",
+        "lapress/models": "dev-develop",
+        "lapress/presets": "dev-master",
+        "lapress/support": "dev-develop",
+        "spatie/laravel-responsecache": "^4.4"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "echo 'test'"
+        ],
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php -r \"file_exists('storage/wordpress/wp-config.php') || copy('wp-config.php', 'storage/wordpress/wp-config.php');\"",
+            "@php artisan package:discover"
+        ],
+        "post-package-install": [
+            "echo 'after'"
+        ],
+        "post-package-update": [
+            "echo 'after'"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
