@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64460ce7a13040f2e383753eb232a163",
+    "content-hash": "6c07a5ab2e86ff665665b6083011e892",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -717,42 +717,6 @@
                 }
             ],
             "time": "2018-12-28T21:58:04+00:00"
-        },
-        {
-            "name": "lapress/config",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lapress/config.git",
-                "reference": "68c30fa3d502cf8cb319636db749f8ea525d12cc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lapress/config/zipball/68c30fa3d502cf8cb319636db749f8ea525d12cc",
-                "reference": "68c30fa3d502cf8cb319636db749f8ea525d12cc",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LaPress\\Config\\ConfigServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "LaPress\\Config\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "seszcze",
-                    "email": "sebastian@ably.pl"
-                }
-            ],
-            "time": "2018-05-22T11:01:01+00:00"
         },
         {
             "name": "lapress/deployment",
@@ -3409,7 +3373,6 @@
         "lapress/models": 20,
         "lapress/presets": 20,
         "lapress/support": 20,
-        "lapress/config": 20,
         "lapress/routing": 20
     },
     "prefer-stable": true,
