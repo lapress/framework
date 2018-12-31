@@ -875,12 +875,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/support.git",
-                "reference": "525f711d5571b7b8aa2ea4489c035b06698017e9"
+                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/support/zipball/525f711d5571b7b8aa2ea4489c035b06698017e9",
-                "reference": "525f711d5571b7b8aa2ea4489c035b06698017e9",
+                "url": "https://api.github.com/repos/lapress/support/zipball/9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
+                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
                 "shasum": ""
             },
             "type": "library",
@@ -906,7 +906,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-28T23:28:47+00:00"
+            "time": "2018-12-31T13:20:00+00:00"
         },
         {
             "name": "laravel/framework",
