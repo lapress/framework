@@ -688,12 +688,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/commands.git",
-                "reference": "6b4e0cd561726ae7e4dd1503c226f5798b278a5f"
+                "reference": "fc98aed2b7f1aeb825ef9eeca4e8d70b176e6cf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/commands/zipball/6b4e0cd561726ae7e4dd1503c226f5798b278a5f",
-                "reference": "6b4e0cd561726ae7e4dd1503c226f5798b278a5f",
+                "url": "https://api.github.com/repos/lapress/commands/zipball/fc98aed2b7f1aeb825ef9eeca4e8d70b176e6cf4",
+                "reference": "fc98aed2b7f1aeb825ef9eeca4e8d70b176e6cf4",
                 "shasum": ""
             },
             "type": "library",
@@ -716,7 +716,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T13:07:41+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "lapress/deployment",
@@ -763,12 +763,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/models.git",
-                "reference": "7a204437f4756118e3f15638639bf5884325b597"
+                "reference": "190e7642f9b75278509358e81b7fec7dac3313ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/models/zipball/7a204437f4756118e3f15638639bf5884325b597",
-                "reference": "7a204437f4756118e3f15638639bf5884325b597",
+                "url": "https://api.github.com/repos/lapress/models/zipball/190e7642f9b75278509358e81b7fec7dac3313ce",
+                "reference": "190e7642f9b75278509358e81b7fec7dac3313ce",
                 "shasum": ""
             },
             "type": "library",
@@ -791,7 +791,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-05-13T21:40:01+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "lapress/presets",
@@ -839,13 +839,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/routing.git",
-                "reference": "17c67c234fba6c9903a04491796620f0e2e558d4"
+                "reference": "62fd6e7d400c85f47cc0b3fd1f9e10c85c29d025"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/routing/zipball/17c67c234fba6c9903a04491796620f0e2e558d4",
-                "reference": "17c67c234fba6c9903a04491796620f0e2e558d4",
+                "url": "https://api.github.com/repos/lapress/routing/zipball/62fd6e7d400c85f47cc0b3fd1f9e10c85c29d025",
+                "reference": "62fd6e7d400c85f47cc0b3fd1f9e10c85c29d025",
                 "shasum": ""
+            },
+            "require": {
+                "spatie/laravel-responsecache": "^4.4"
             },
             "type": "library",
             "extra": {
@@ -867,7 +870,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-28T21:58:44+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "lapress/support",
@@ -875,12 +878,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/support.git",
-                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550"
+                "reference": "7c174d437ead15dee8080a2326e6cab50a2829b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/support/zipball/9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
-                "reference": "9d95a5aeacd16abc37c961d5f1c50ae4e4277550",
+                "url": "https://api.github.com/repos/lapress/support/zipball/7c174d437ead15dee8080a2326e6cab50a2829b7",
+                "reference": "7c174d437ead15dee8080a2326e6cab50a2829b7",
                 "shasum": ""
             },
             "type": "library",
@@ -906,7 +909,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T13:20:00+00:00"
+            "time": "2018-12-31T15:59:03+00:00"
         },
         {
             "name": "laravel/framework",
@@ -2131,6 +2134,70 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "spatie/laravel-responsecache",
+            "version": "4.4.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-responsecache.git",
+                "reference": "783c003f422dc20b73c0c83f7e12c338f7ece803"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-responsecache/zipball/783c003f422dc20b73c0c83f7e12c338f7ece803",
+                "reference": "783c003f422dc20b73c0c83f7e12c338f7ece803",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5.0|~5.6.0|~5.7.0",
+                "nesbot/carbon": "~1.19",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "~3.5.0|~3.6.0|~3.7.0",
+                "phpunit/phpunit": "^6.2|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\ResponseCache\\ResponseCacheServiceProvider"
+                    ],
+                    "aliases": {
+                        "ResponseCache": "Spatie\\ResponseCache\\Facades\\ResponseCache"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ResponseCache\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Speed up a Laravel application by caching the entire response",
+            "homepage": "https://github.com/spatie/laravel-responsecache",
+            "keywords": [
+                "cache",
+                "laravel",
+                "laravel-responsecache",
+                "performance",
+                "response",
+                "spatie"
+            ],
+            "time": "2018-09-27T06:47:28+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
