@@ -2,6 +2,7 @@
 /storage
 /packages
 /vendor
+/wordpress
 /.idea
 /.vscode
 /.vagrant

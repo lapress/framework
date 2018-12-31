@@ -21,16 +21,8 @@
     "lapress/presets": "dev-master",
     "lapress/support": "dev-develop",
     "lapress/config": "dev-develop",
-    "lapress/lapress": "dev-develop",
     "lapress/routing": "dev-develop",
     "spatie/laravel-responsecache": "^4.4"
-  },
-  "scripts": {
-    "post-autoload-dump": [
-      "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
-      "@php -r \"file_exists('storage/wordpress/wp-config.php') || copy('wp-config.php', 'storage/wordpress/wp-config.php');\"",
-      "@php artisan package:discover"
-    ]
   },
   "config": {
     "preferred-install": "dist",
