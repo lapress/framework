@@ -839,12 +839,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/routing.git",
-                "reference": "c123442d190303bce329d48f9f8b32cea97d539d"
+                "reference": "5236b9760b5cfb63e68143e3a7e57f900bedf4b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/routing/zipball/c123442d190303bce329d48f9f8b32cea97d539d",
-                "reference": "c123442d190303bce329d48f9f8b32cea97d539d",
+                "url": "https://api.github.com/repos/lapress/routing/zipball/5236b9760b5cfb63e68143e3a7e57f900bedf4b9",
+                "reference": "5236b9760b5cfb63e68143e3a7e57f900bedf4b9",
                 "shasum": ""
             },
             "require": {
@@ -870,7 +870,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2018-12-31T16:01:37+00:00"
+            "time": "2018-12-31T17:15:52+00:00"
         },
         {
             "name": "lapress/support",
