@@ -20,8 +20,7 @@
     "lapress/models": "dev-develop",
     "lapress/presets": "dev-master",
     "lapress/support": "dev-develop",
-    "lapress/routing": "dev-develop",
-    "spatie/laravel-responsecache": "^4.4"
+    "lapress/routing": "dev-develop"
   },
   "config": {
     "preferred-install": "dist",
