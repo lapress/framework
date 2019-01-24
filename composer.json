@@ -14,13 +14,14 @@
     "fideloper/proxy": "^4.0",
     "jjgrainger/wp-custom-post-type-class": "^1.4",
     "johnpbloch/wordpress": "^4.9",
-    "predis/predis": "^1.1",
     "lapress/commands": "dev-develop",
     "lapress/deployment": "0.1.0",
     "lapress/models": "dev-develop",
     "lapress/presets": "dev-master",
+    "lapress/routing": "dev-develop",
     "lapress/support": "dev-develop",
-    "lapress/routing": "dev-develop"
+    "predis/predis": "^1.1",
+    "teamtnt/laravel-scout-tntsearch-driver": "^6.1"
   },
   "config": {
     "preferred-install": "dist",
