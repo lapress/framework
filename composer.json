@@ -7,6 +7,10 @@
     "lapress",
     "wordpress"
   ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "http://github.com/SebSzcze/laravel-scout-tntsearch-driver"
+  }],
   "license": "MIT",
   "type": "project",
   "require": {
@@ -21,7 +25,7 @@
     "lapress/routing": "dev-develop",
     "lapress/support": "dev-develop",
     "predis/predis": "^1.1",
-    "teamtnt/laravel-scout-tntsearch-driver": "^7.0"
+    "teamtnt/laravel-scout-tntsearch-driver": "dev-lapress"
   },
   "config": {
     "preferred-install": "dist",

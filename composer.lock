@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcd6bfc44c4c8086c4f426c237c99893",
+    "content-hash": "711d77f522f7c9a53c1cd1fd5f1b77ed",
     "packages": [
         {
             "name": "artesaos/seotools",
@@ -3382,16 +3382,16 @@
         },
         {
             "name": "teamtnt/laravel-scout-tntsearch-driver",
-            "version": "v7.0.0",
+            "version": "dev-lapress",
             "source": {
                 "type": "git",
-                "url": "https://github.com/teamtnt/laravel-scout-tntsearch-driver.git",
-                "reference": "fe638e0269533d37a6eabb5845039d5f3226b157"
+                "url": "https://github.com/SebSzcze/laravel-scout-tntsearch-driver.git",
+                "reference": "f59862e345a897ab1a2654837e31172fb10e3dfc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/teamtnt/laravel-scout-tntsearch-driver/zipball/fe638e0269533d37a6eabb5845039d5f3226b157",
-                "reference": "fe638e0269533d37a6eabb5845039d5f3226b157",
+                "url": "https://api.github.com/repos/SebSzcze/laravel-scout-tntsearch-driver/zipball/f59862e345a897ab1a2654837e31172fb10e3dfc",
+                "reference": "f59862e345a897ab1a2654837e31172fb10e3dfc",
                 "shasum": ""
             },
             "require": {
@@ -3428,7 +3428,11 @@
                     "TeamTNT\\Scout\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -3445,7 +3449,10 @@
                 "search",
                 "tntsearch"
             ],
-            "time": "2019-02-11T13:44:35+00:00"
+            "support": {
+                "source": "https://github.com/SebSzcze/laravel-scout-tntsearch-driver/tree/lapress"
+            },
+            "time": "2019-03-04T21:14:34+00:00"
         },
         {
             "name": "teamtnt/tntsearch",
@@ -3674,7 +3681,8 @@
         "lapress/models": 20,
         "lapress/presets": 20,
         "lapress/routing": 20,
-        "lapress/support": 20
+        "lapress/support": 20,
+        "teamtnt/laravel-scout-tntsearch-driver": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
