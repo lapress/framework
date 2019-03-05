@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/models.git",
-                "reference": "221249d9343c54d7827e7193d570f9de901aa4a4"
+                "reference": "5ecc8aeb95653561efc68d664b741184d4285907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/models/zipball/221249d9343c54d7827e7193d570f9de901aa4a4",
-                "reference": "221249d9343c54d7827e7193d570f9de901aa4a4",
+                "url": "https://api.github.com/repos/lapress/models/zipball/5ecc8aeb95653561efc68d664b741184d4285907",
+                "reference": "5ecc8aeb95653561efc68d664b741184d4285907",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2019-03-05T13:24:13+00:00"
+            "time": "2019-03-05T16:30:03+00:00"
         },
         {
             "name": "lapress/presets",
@@ -941,12 +941,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/routing.git",
-                "reference": "653d6d72f76214da8ad25b2f352a0dc6cb2e6242"
+                "reference": "c06e23bfa8458e5b834559e2f0eeb17235efed25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/routing/zipball/653d6d72f76214da8ad25b2f352a0dc6cb2e6242",
-                "reference": "653d6d72f76214da8ad25b2f352a0dc6cb2e6242",
+                "url": "https://api.github.com/repos/lapress/routing/zipball/c06e23bfa8458e5b834559e2f0eeb17235efed25",
+                "reference": "c06e23bfa8458e5b834559e2f0eeb17235efed25",
                 "shasum": ""
             },
             "require": {
@@ -972,7 +972,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2019-02-18T17:15:43+00:00"
+            "time": "2019-03-05T22:21:59+00:00"
         },
         {
             "name": "lapress/support",
