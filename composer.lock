@@ -862,12 +862,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lapress/models.git",
-                "reference": "c86df6f8adba161d198838437fa0dd3def6df01b"
+                "reference": "221249d9343c54d7827e7193d570f9de901aa4a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lapress/models/zipball/c86df6f8adba161d198838437fa0dd3def6df01b",
-                "reference": "c86df6f8adba161d198838437fa0dd3def6df01b",
+                "url": "https://api.github.com/repos/lapress/models/zipball/221249d9343c54d7827e7193d570f9de901aa4a4",
+                "reference": "221249d9343c54d7827e7193d570f9de901aa4a4",
                 "shasum": ""
             },
             "require": {
@@ -893,7 +893,7 @@
                     "email": "sebastian@ably.pl"
                 }
             ],
-            "time": "2019-03-04T15:46:37+00:00"
+            "time": "2019-03-05T13:24:13+00:00"
         },
         {
             "name": "lapress/presets",
