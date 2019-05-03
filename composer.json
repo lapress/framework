@@ -26,8 +26,7 @@
     "lapress/presets": "dev-master",
     "lapress/routing": "dev-develop",
     "lapress/support": "dev-develop",
-    "predis/predis": "^1.1",
-    "teamtnt/laravel-scout-tntsearch-driver": "dev-lapress"
+    "predis/predis": "^1.1"
   },
   "config": {
     "preferred-install": "dist",
