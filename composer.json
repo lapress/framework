@@ -21,6 +21,7 @@
     "jjgrainger/wp-custom-post-type-class": "^1.4",
     "johnpbloch/wordpress": "^5.1",
     "lapress/commands": "dev-develop",
+    "lapress/content": "dev-master",
     "lapress/deployment": "0.1.0",
     "lapress/models": "dev-develop",
     "lapress/presets": "dev-master",
